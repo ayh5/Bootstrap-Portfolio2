@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <!--Character set-->
+    <meta charset="utf-8">
+    <!--Document responsive across devices.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About | Alan Ho</title>
+    <!--Link Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Link CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div id="logo">Alan Ho</div>
+            </div>
+            <!--End navbar-header-->
+            <div class="collapse navbar-collapse" class="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="nav-links" href="index.html">Home</a></li>
+                    <li><a class="nav-links" href="portfolio.html">Portfolio</a>
+                        <li><a class="nav-links" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!--.navbar-collapse-->
+        </div>
+    </nav>
+    <!--End of Navigation-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="page-header">
+                    <h1>Contact</h1>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="10" required="required"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default brn-md">Submit</button>
+                </form>
+            </div> <!--End col-md-8-->
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="connectMeHeading">Connect with Me</h2>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group list-inline">
+                            <li class="list-group-item"><a href="#"><img src="assets/images/github2-128.png" class="social-image" alt="GitHub" /></a></li>
+                            <li class="list-group-item"><a href="#"><img src="assets/images/square-linkedin-128.png" class="social-image" alt="LinkedIn" /></a></li>
+                            <li class="list-group-item"><a href="#"><img src="assets/images/overflow-128.png" class="social-image" alt="Stack Overflow" /></a></li>
+                        </ul>
+                    </div>
+                    <!--Panel Body End-->
+                </div>
+                <!--panel panel-default end-->
+            </div>
+            <!--col-md-4 end-->
+        </div>
+        <!--End row-->
+        <!--End Main Content-->
+        <!--Start Footer here-->
+        <footer>
+            <div class="container">
+                <p class="text-center text-muted">
+                    &#64; Copyright 2017 Alan Ho
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
